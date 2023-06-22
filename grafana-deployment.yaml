@@ -73,6 +73,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: grafana
+  namespace: monitoring-latest
 spec:
   ports:
     - port: 3000
@@ -82,3 +83,4 @@ spec:
     app: grafana
   sessionAffinity: None
   #type: LoadBalancer
+
