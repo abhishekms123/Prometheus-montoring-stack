@@ -45,6 +45,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: prometheus-pvc
+  namespace: monitoring-latest
 spec:
   accessModes:
     - ReadWriteOnce
