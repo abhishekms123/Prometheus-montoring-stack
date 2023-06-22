@@ -4,7 +4,7 @@ metadata:
   name: prometheus-server-conf
   labels:
     name: prometheus-server-conf
-  namespace: grafana-latest
+  namespace: monitoring-latest
 data:
   prometheus.rules: |-
     groups:
