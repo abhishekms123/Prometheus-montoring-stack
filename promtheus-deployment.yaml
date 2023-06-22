@@ -37,8 +37,8 @@ spec:
             defaultMode: 420
             name: prometheus-server-conf
   
-        #- name: prometheus-storage-volume
-        #  emptyDir: {}
+        - name: prometheus-storage-volume
+          emptyDir: {}
 
 ---
 apiVersion: v1
@@ -52,7 +52,7 @@ spec:
   resources:
     requests:
       storage: 10Gi
-
+      
 ---
 apiVersion: v1
 kind: Service
