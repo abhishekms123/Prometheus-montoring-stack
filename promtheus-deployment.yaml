@@ -31,7 +31,7 @@ spec:
       volumes:
         - name: prometheus-config-volume
           persistentVolumeClaim:
-          claimName: prometheus-config-volume-pvc
+          claimName: prometheus-data-pvc
 
           configMap:
             defaultMode: 420
@@ -44,7 +44,7 @@ spec:
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: prometheus-config-volume-pvc
+  name: prometheus-data-pvc
 spec:
   accessModes:
     - ReadWriteOnce
