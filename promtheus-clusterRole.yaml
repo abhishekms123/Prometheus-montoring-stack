@@ -2,7 +2,6 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   name: prometheus
-  namespace: monitoring-latest
 rules:
 - apiGroups: [""]
   resources:
@@ -31,4 +30,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: default
-  namespace: grafana-latest
+  namespace: monitoring-latest
