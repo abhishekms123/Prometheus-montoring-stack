@@ -23,5 +23,5 @@ data:
     host = smtp.gmail.com:587
     skip_verify = true
     user = abhishek.sebastian@urolime.com
-    password = Passion@321
+    password = FOP15CS002
     
