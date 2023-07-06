@@ -21,6 +21,6 @@ data:
     from_address = admin@grafana.localhost
     from_name = ParkLoyalty-Grafana-Alert-test
     host = smtp.gmail.com:25
-    user = abhishekms266@gmail.com
-    password = 'nmaoehhncdjgsvfs'
+    user = abhishek.sebastian@urolime.com
+    password = 'qoatfznrqczbfvqb'
     
