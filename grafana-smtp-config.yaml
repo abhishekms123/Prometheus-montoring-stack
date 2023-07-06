@@ -22,5 +22,5 @@ data:
     from_name = ParkLoyalty-Grafana-Alert-test
     host = smtp.gmail.com:587
     user = abhishek.sebastian@urolime.com
-    password = kpujhinzfzonmprj
+    password = `kpujhinzfzonmprj`
     
