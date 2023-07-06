@@ -4,7 +4,7 @@ metadata:
   name: grafana-smtp-config
   namespace: monitoring-latest
 data:
-  grafana.ini: 
+  grafana.ini:
   [smtp]
   enabled: true
   host: smtp.gmail.com:587
@@ -12,4 +12,5 @@ data:
   from_name: ParkLoyalty-Grafana
   skip_verify: true
   existingSecret: grafana-smtp-secret
+    
     
