@@ -74,9 +74,7 @@ spec:
         - name: smtp-config
           configMap:
             name: grafana-smtp-config
-        - name: smtp-secret
-          secret:
-            secretName: grafana-smtp-secret    
+           
           
 ---
 apiVersion: v1
