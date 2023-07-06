@@ -23,5 +23,5 @@ data:
     host = smtp.gmail.com:587
     skip_verify = true
     user = YWJoaXNoZWsuc2ViYXN0aWFuQHVyb2xpbWUuY29t
-    password = UGFzc2lvbkAxMjM=
+    password = UGFzc2lvbkAzMjE=
     
