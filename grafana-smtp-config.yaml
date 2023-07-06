@@ -11,7 +11,7 @@ data:
       from_address: admin@grafana.localhost
       from_name: ParkLoyalty-Grafana
       skip_verify: true
-      existingSecret: grafana-smtp-secret
+      
         
 
     
