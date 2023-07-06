@@ -4,23 +4,13 @@ metadata:
   name: grafana-smtp-config
   namespace: monitoring-latest
 data:
-  grafana.ini: |
-    [analytics]
-    check_for_updates = true
-    [grafana_net]
-    url = https://grafana.net
-    [log]
-    mode = console
-    [paths]
-    data = /var/lib/grafana/
-    logs = /var/log/grafana
-    plugins = /var/lib/grafana/plugins
-    provisioning = /etc/grafana/provisioning
-    [smtp]
-    enabled = true
-    from_address = admin@grafana.localhost
-    from_name = ParkLoyalty-Grafana-Alert-test
-    host = smtp.gmail.com:587
-    user = dGVjaG9wc0B1cm9saW1lLmNvbQ==
-    password = VVIwQUZVVWlVbmlwOFMwbDFA
+  grafana.ini:
+   smtp:
+    enabled: true
+    host: smtp.gmail.com:587
+    from_address: admin@grafana.localhost
+    from_name: ParkLoyalty-Grafana
+    skip_verify: true
+  smtp:
+    existingSecret: grafana-smtp-secret
     
