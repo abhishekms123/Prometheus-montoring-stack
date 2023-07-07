@@ -16,15 +16,15 @@ data:
       mode: console
     grafana_net:
       url: https://grafana.net
-  smtp:
-    enabled: true
-    host: smtp.gmail.com:587
-    from_address: admin@grafana.localhost
-    from_name: ParkLoyalty-Grafana
-    skip_verify: true
-    existingSecret: grafana-smtp-secret
-    userKey: dGVjaG9wc0B1cm9saW1lLmNvbQ==
-    passwordKey: VVIwQUZVVWlVbmlwOFMwbDFA
+    smtp:
+      enabled: true
+      host: smtp.gmail.com:587
+      from_address: admin@grafana.localhost
+      from_name: ParkLoyalty-Grafana
+      skip_verify: true
+      existingSecret: grafana-smtp-secret
+      userKey: dGVjaG9wc0B1cm9saW1lLmNvbQ==
+      passwordKey: VVIwQUZVVWlVbmlwOFMwbDFA
       
         
 
