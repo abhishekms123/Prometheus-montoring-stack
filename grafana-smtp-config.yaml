@@ -10,6 +10,7 @@ grafana:
       host: smtp.gmail.com:465
       existingSecret: grafana-smtp-secret
       from_address: admin@grafana.localhost
+      skip_verify: true
       from_name: ParkLoyalty-Grafana
       passwordKey: UR0AFUUiUnip8S0l1@
       userKey: techops@urolime.com
