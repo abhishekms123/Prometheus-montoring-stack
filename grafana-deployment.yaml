@@ -68,7 +68,10 @@ spec:
         - name: grafana-pv
           persistentVolumeClaim:
             claimName: grafana-pvc
-                       
+        - name: smtp-secret
+          secret:
+            secretName: grafana-smtp
+
           
 ---
 apiVersion: v1
