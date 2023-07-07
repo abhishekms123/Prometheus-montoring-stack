@@ -1,3 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grafana-smtp-config
+  namespace: monitoring-latest
 grafana.ini:
   paths:
     data: /var/lib/grafana/
@@ -13,3 +18,13 @@ grafana.ini:
   smtp:
     enabled: true
     host: smtp.gmail.com:587
+    from_address: admin@grafana.localhost
+    from_name: ParkLoyalty-Grafana
+    skip_verify: true
+server:
+  root_url: http://localhost:3000
+smtp:
+  existingSecret: grafana-smtp
+persistence:
+  enabled: true
+  size: 5Gi
