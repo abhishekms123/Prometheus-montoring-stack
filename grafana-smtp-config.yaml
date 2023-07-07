@@ -16,8 +16,6 @@ data:
       mode: console
     grafana_net:
       url: https://grafana.net
-    server:
-      domain: http://localhost:3000
   smtp:
     enabled: true
     host: smtp.gmail.com:587
