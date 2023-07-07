@@ -5,26 +5,26 @@ metadata:
   namespace: monitoring-latest
 data:
   grafana.ini:
-  paths:
-    data: /var/lib/grafana/
-    logs: /var/log/grafana
-    plugins: /var/lib/grafana/plugins
-    provisioning: /etc/grafana/provisioning
-  analytics:
-    check_for_updates: true
-  log:
-    mode: console
-  grafana_net:
-    url: https://grafana.net
-  server:
-    domain: http://localhost:3000
-smtp:
-  enabled: true
-  host: smtp.gmail.com:587
-  from_address: admin@grafana.localhost
-  from_name: ParkLoyalty-Grafana
-  skip_verify: true
-  existingSecret: "grafana-smtp-secret"
+    paths:
+      data: /var/lib/grafana/
+      logs: /var/log/grafana
+      plugins: /var/lib/grafana/plugins
+      provisioning: /etc/grafana/provisioning
+    analytics:
+      check_for_updates: true
+    log:
+      mode: console
+    grafana_net:
+      url: https://grafana.net
+    server:
+      domain: http://localhost:3000
+  smtp:
+    enabled: true
+    host: smtp.gmail.com:587
+    from_address: admin@grafana.localhost
+    from_name: ParkLoyalty-Grafana
+    skip_verify: true
+    existingSecret: "grafana-smtp-secret"
     
       
         
