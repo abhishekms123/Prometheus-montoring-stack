@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: grafana-smtp-config
   namespace: monitoring-latest
-grafana:
+data:
   grafana.ini:
     smtp:
       enabled: true
