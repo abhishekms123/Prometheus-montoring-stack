@@ -12,8 +12,8 @@ data:
       from_address = admin@grafana.localhost
       skip_verify = true
       from_name = ParkLoyalty-Grafana
-      passwordKey = UR0AFUUiUnip8S0l1@
-      userKey = techops@urolime.com
+      password = UR0AFUUiUnip8S0l1@
+      user = techops@urolime.com
         
 
     
