@@ -3,6 +3,7 @@ kind: ConfigMap
 metadata:
   name: grafana-smtp-config
   namespace: monitoring-latest
+data:
 grafana.ini:
   paths:
     data: /var/lib/grafana/
