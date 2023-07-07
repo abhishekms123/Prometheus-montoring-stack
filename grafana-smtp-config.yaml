@@ -25,8 +25,8 @@ data:
       from_name: ParkLoyalty-Grafana
       skip_verify: true
       existingSecret: grafana-smtp-secret
-      userKey: "dGVjaG9wc0B1cm9saW1lLmNvbQ=="
-      passwordKey: "VVIwQUZVVWlVbmlwOFMwbDFA"  
+      userKey: dGVjaG9wc0B1cm9saW1lLmNvbQ==
+      passwordKey: VVIwQUZVVWlVbmlwOFMwbDFA
       
         
 
