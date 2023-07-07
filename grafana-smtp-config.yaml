@@ -13,7 +13,7 @@ data:
     skip_verify = true
     existingSecret = grafana-smtp-secret
     user = techops@urolime.com
-    password = """UR0AFUUiUnip8S0l1@"""
+    password = UR0AFUUiUnip8S0l1@
     
         
 
